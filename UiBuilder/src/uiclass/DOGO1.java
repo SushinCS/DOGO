@@ -23,7 +23,7 @@ public class DOGO1 extends JPanel {
 		lblDogo.setBounds(188, 12, 70, 15);
 		add(lblDogo);
 		
-		JButton btnSet = new JButton("Set");
+		JButton btnSet = new JButton("Sett");
 		btnSet.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				lblDogo.setText("Clicked");
